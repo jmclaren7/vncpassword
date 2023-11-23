@@ -10,7 +10,7 @@ int main(int argc, char **argv)
     if (argc != 2 || strcmp(argv[1], "/?") == 0 || strcmp(argv[1], "--help") == 0 || strcmp(argv[1], "-h") == 0)
     {
         printf("\nUsage: vncpassword [password]\n\n");
-        printf("    [password] can a clear text password and will be converted to encrypted hex.\n");
+        printf("    [password] can be a clear text password and will be converted to encrypted hex.\n");
         printf("    [password] can be encrypted hex and will be converted to clear text. (18 characters, starting with 0x)\n");
         return 0;
     }

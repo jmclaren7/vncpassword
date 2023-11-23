@@ -5,5 +5,5 @@ This has only been tested on the encryption method used by TightVNC, some VNC so
 
     Usage: vncpassword [password]
 
-    [password] can a clear text password and will be converted to encrypted hex.
+    [password] can be a clear text password and will be converted to encrypted hex.
     [password] can be encrypted hex and will be converted to clear text. (18 characters, starting with 0x)
